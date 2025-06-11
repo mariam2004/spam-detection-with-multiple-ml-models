@@ -37,6 +37,8 @@ You can install all requirements via:
 
 ```bash
 pip install streamlit scikit-learn xgboost matplotlib joblib pandas pillow
+```
+ططط
 
 
 
@@ -88,8 +90,8 @@ spam_email_classification/
 │   └── vectorizer.pkl     # CountVectorizer instance
 ├── images/
 │   └── sidebar_logo.png         # Image for sidebar
-├── README.md
-└── requirements.txt             # Optional: List of dependencies
+└── README.md
+
 ```
 
 ---
@@ -116,13 +118,8 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3. **Install dependencies:**
 
-```bash
-pip install -r requirements.txt
-```
-
-> Or manually:
+3.> Install manually:
 ```bash
 pip install streamlit scikit-learn matplotlib joblib
 ```
@@ -157,4 +154,4 @@ streamlit run spam_email_detectApp.py
 
 ---
 
-🔗 Built with ❤️ using [Streamlit](https://streamlit.io/)
+🔗 Built using [Streamlit](https://streamlit.io/)
